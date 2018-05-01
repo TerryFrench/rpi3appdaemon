@@ -1,5 +1,5 @@
 # trying to get a working version of https://github.com/torkildr/rpi-appdaemon-docker/
-FROM arm32v7/python:3.6
+FROM resin/raspberrypi3-python:3.6
 MAINTAINER TerryFrench
 
 VOLUME /conf
